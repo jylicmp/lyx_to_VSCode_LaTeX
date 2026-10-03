@@ -1,0 +1,235 @@
+﻿source_file,lyx_binding,macOS_keys,LyX_action,category,migration,VS_Code_binding_or_snippet
+mac.bind,C-M-b,⌘⌃b,font-boldsymbol,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+mac.bind,C-b,⌘b,font-bold,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+mac.bind,C-d,⌘d,buffer-view dvi,Build / preview,LyX preview/build-specific; not needed for normal LaTeX Workshop workflow,
+mac.bind,C-S-D,⌘⇧D,buffer-update dvi,Build / preview,LyX preview/build-specific; not needed for normal LaTeX Workshop workflow,
+mac.bind,C-M-e,⌘⌃e,font-emph,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+mac.bind,C-m,⌘m,math-mode,Math / LaTeX,Mapped in keybindings.json,cmd+m
+mac.bind,C-S-M,⌘⇧M,math-display,Math / LaTeX,Mapped in keybindings.json,cmd+shift+m
+mac.bind,C-S-P,⌘⇧P,font-typewriter,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+mac.bind,C-r,⌘r,buffer-view,Build / preview,LyX preview/build-specific; not needed for normal LaTeX Workshop workflow,
+mac.bind,C-t,⌘t,buffer-view pdf,Build / preview,Use LaTeX Workshop build/view/SyncTeX commands,⌘⌥B / ⌘⌥V / ⌘⌥J as applicable
+mac.bind,C-u,⌘u,font-underline,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+mac.bind,C-S-O,⌘⇧O,font-strikeout,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+mac.bind,C-S-T,⌘⇧T,buffer-update pdf,Build / preview,Use LaTeX Workshop build/view/SyncTeX commands,⌘⌥B / ⌘⌥V / ⌘⌥J as applicable
+mac.bind,C-S-R,⌘⇧R,buffer-update,Build / preview,LyX preview/build-specific; not needed for normal LaTeX Workshop workflow,
+mac.bind,C-l,⌘l,ert-insert,Math / LaTeX,Not needed in VS Code: you are already editing raw LaTeX,
+mac.bind,C-M-Right,⌘⌃→,tabular-feature move-column-right,Table,LyX structural table command; use LaTeX source/snippets instead,
+mac.bind,C-M-Left,⌘⌃←,tabular-feature move-column-left,Table,LyX structural table command; use LaTeX source/snippets instead,
+mac.bind,C-A-F,⌘⌥F,forward-search,Build / preview,Use LaTeX Workshop build/view/SyncTeX commands,⌘⌥B / ⌘⌥V / ⌘⌥J as applicable
+math.bind,M-m f,⌃m → f,math-insert \frac,Math,Mapped in keybindings.json,ctrl+m f
+math.bind,M-m s,⌃m → s,math-insert \sqrt,Math,Mapped in keybindings.json,ctrl+m s
+math.bind,M-m x,⌃m → x,math-subscript,Math,Mapped in keybindings.json,ctrl+m x
+math.bind,M-m e,⌃m → e,math-superscript,Math,Mapped in keybindings.json,ctrl+m e
+math.bind,M-m u,⌃m → u,math-insert \sum,Math,Mapped in keybindings.json,ctrl+m u
+math.bind,M-m i,⌃m → i,math-insert \int,Math,Mapped in keybindings.json,ctrl+m i
+math.bind,M-m m,⌃m → m,math-mode,Math,Math-related; available for optional custom mapping,
+math.bind,M-m d,⌃m → d,math-display,Math,Math-related; available for optional custom mapping,
+math.bind,M-m y,⌃m → y,math-insert \oint,Math,Mapped in keybindings.json,ctrl+m y
+math.bind,M-m p,⌃m → p,math-insert \partial,Math,Mapped in keybindings.json,ctrl+m p
+math.bind,M-m r,⌃m → r,math-insert \root,Math,Mapped in keybindings.json,ctrl+m r
+math.bind,M-m l,⌃m → l,math-limits,Math,Math-related; available for optional custom mapping,
+math.bind,M-m S-L l,⌃m → ⇧L → l,math-limits limits,Math,Math-related; available for optional custom mapping,
+math.bind,M-m S-L n,⌃m → ⇧L → n,math-limits nolimits,Math,Math-related; available for optional custom mapping,
+math.bind,M-m S-L space,⌃m → ⇧L → Space,math-limits empty,Math,Math-related; available for optional custom mapping,
+math.bind,M-m n,⌃m → n,math-number-toggle,Math,Math-related; available for optional custom mapping,
+math.bind,M-m S-N,⌃m → ⇧N,math-number-line-toggle,Math,Math-related; available for optional custom mapping,
+math.bind,M-m 8,⌃m → 8,math-insert \infty,Math,Mapped in keybindings.json,ctrl+m 8
+math.bind,M-m o 1,⌃m → o → 1,self-insert \#1,Math,Not migrated by default,
+math.bind,M-m o 2,⌃m → o → 2,self-insert \#2,Math,Not migrated by default,
+math.bind,M-m o 3,⌃m → o → 3,self-insert \#3,Math,Not migrated by default,
+math.bind,M-m o 4,⌃m → o → 4,self-insert \#4,Math,Not migrated by default,
+math.bind,M-m o 5,⌃m → o → 5,self-insert \#5,Math,Not migrated by default,
+math.bind,M-m o 6,⌃m → o → 6,self-insert \#6,Math,Not migrated by default,
+math.bind,M-m o 7,⌃m → o → 7,self-insert \#7,Math,Not migrated by default,
+math.bind,M-m o 8,⌃m → o → 8,self-insert \#8,Math,Not migrated by default,
+math.bind,M-m o 9,⌃m → o → 9,self-insert \#9,Math,Not migrated by default,
+math.bind,M-m t n,⌃m → t → n,math-mutate none,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m t t,⌃m → t → t,math-mutate dump,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m t a,⌃m → t → a,math-mutate align,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m t i,⌃m → t → i,math-mutate simple,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m t d,⌃m → t → d,math-mutate equation,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m t e,⌃m → t → e,math-mutate eqnarray,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m t m,⌃m → t → m,math-mutate multline,Math,LyX formula-structure mutation; not mapped by default,
+math.bind,M-m c i,⌃m → c → i,tabular-feature append-column,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c d,⌃m → c → d,tabular-feature delete-column,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c c,⌃m → c → c,tabular-feature copy-column,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c s,⌃m → c → s,tabular-feature swap-column,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c a,⌃m → c → a,tabular-feature add-vline-left,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c e,⌃m → c → e,tabular-feature delete-vline-left,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c z,⌃m → c → z,tabular-feature add-vline-right,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c x,⌃m → c → x,tabular-feature delete-vline-right,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w i,⌃m → w → i,tabular-feature append-row,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w d,⌃m → w → d,tabular-feature delete-row,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w c,⌃m → w → c,tabular-feature copy-row,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w s,⌃m → w → s,tabular-feature swap-row,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w a,⌃m → w → a,tabular-feature add-hline-above,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w e,⌃m → w → e,tabular-feature delete-hline-above,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w z,⌃m → w → z,tabular-feature add-hline-below,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w x,⌃m → w → x,tabular-feature delete-hline-below,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w t,⌃m → w → t,tabular-feature valign-top,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w m,⌃m → w → m,tabular-feature valign-middle,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m w b,⌃m → w → b,tabular-feature valign-bottom,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c l,⌃m → c → l,tabular-feature align-left,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c m,⌃m → c → m,tabular-feature align-center,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m c r,⌃m → c → r,tabular-feature align-right,Math,LyX structural table command; use LaTeX source/snippets instead,
+math.bind,M-m ~S-quotedbl,"⌃m → [no ⇧]""",math-insert \ddot,Math,Math-related; available for optional custom mapping,
+math.bind,M-m h,⌃m → h,math-insert \hat,Math,Mapped in keybindings.json,ctrl+m h
+math.bind,M-m ~C-~M-~S-backslash,⌃m → [no ⌘ no ⌃ no ⇧]\,math-insert \grave,Math,Math-related; available for optional custom mapping,
+math.bind,M-m ~S-slash,⌃m → [no ⇧]/,math-insert \acute,Math,Mapped in keybindings.json,ctrl+m /
+math.bind,M-m ~C-~M-~S-ampersand,⌃m → [no ⌘ no ⌃ no ⇧]&,math-insert \tilde,Math,Math-related; available for optional custom mapping,
+math.bind,M-m ~S-minus,⌃m → [no ⇧]-,math-insert \bar,Math,Mapped in keybindings.json,ctrl+m -
+math.bind,M-m ~S-period,⌃m → [no ⇧].,math-insert \dot,Math,Mapped in keybindings.json,ctrl+m .
+math.bind,M-m S-V,⌃m → ⇧V,math-insert \check,Math,Math-related; available for optional custom mapping,
+math.bind,M-m S-U,⌃m → ⇧U,math-insert \breve,Math,Math-related; available for optional custom mapping,
+math.bind,M-m v,⌃m → v,math-insert \vec,Math,Mapped in keybindings.json,ctrl+m v
+math.bind,M-m ~S-underscore,⌃m → [no ⇧]_,math-insert \underbar,Math,Math-related; available for optional custom mapping,
+math.bind,M-m b,⌃m → b,math-insert \overline,Math,Mapped in keybindings.json,ctrl+m b
+math.bind,M-m ~S-apostrophe,⌃m → [no ⇧]',math-insert \prime,Math,Mapped in keybindings.json,ctrl+m '
+math.bind,M-m ~S-parenleft,⌃m → [no ⇧](,math-delim ( ),Math,Mapped in keybindings.json,ctrl+m shift+9
+math.bind,M-m ~C-~M-~S-bracketleft,⌃m → [no ⌘ no ⌃ no ⇧][,math-delim [ ],Math,Mapped in keybindings.json,ctrl+m [
+math.bind,M-m ~C-~M-~S-braceleft,⌃m → [no ⌘ no ⌃ no ⇧]{,math-delim { },Math,Math-related; available for optional custom mapping,
+math.bind,M-m ~S-less,⌃m → [no ⇧]<,math-delim langle rangle,Math,Math-related; available for optional custom mapping,
+math.bind,M-m ~S-greater,⌃m → [no ⇧]>,math-delim rangle langle,Math,Math-related; available for optional custom mapping,
+math.bind,M-m ~C-~M-~S-bar,⌃m → [no ⌘ no ⌃ no ⇧]|,math-delim | |,Math,Math-related; available for optional custom mapping,
+math.bind,M-m ~S-plus,⌃m → [no ⇧]+,math-insert \pm,Math,Mapped in keybindings.json,ctrl+m shift+=
+math.bind,M-m ~S-equal,⌃m → [no ⇧]=,math-insert \neq,Math,Mapped in keybindings.json,ctrl+m =
+math.bind,Escape,Esc,escape,Math,Not migrated by default,
+math.bind,M-m space,⌃m → Space,math-space,Math,Math-related; available for optional custom mapping,
+math.bind,C-S-asterisk,⌘⇧*,math-macro-unfold,Math,Math-related; available for optional custom mapping,
+math.bind,M-m g a,⌃m → g → a,math-insert \alpha,Math,Mapped as snippet (VS Code native chords are only two strokes),;ga + Tab
+math.bind,M-m g b,⌃m → g → b,math-insert \beta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gb + Tab
+math.bind,M-m g c,⌃m → g → c,math-insert \chi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gc + Tab
+math.bind,M-m g d,⌃m → g → d,math-insert \delta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gd + Tab
+math.bind,M-m g e,⌃m → g → e,math-insert \epsilon,Math,Mapped as snippet (VS Code native chords are only two strokes),;ge + Tab
+math.bind,M-m g f,⌃m → g → f,math-insert \phi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gf + Tab
+math.bind,M-m g g,⌃m → g → g,math-insert \gamma,Math,Mapped as snippet (VS Code native chords are only two strokes),;gg + Tab
+math.bind,M-m g h,⌃m → g → h,math-insert \eta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gh + Tab
+math.bind,M-m g i,⌃m → g → i,math-insert \iota,Math,Mapped as snippet (VS Code native chords are only two strokes),;gi + Tab
+math.bind,M-m g j,⌃m → g → j,math-insert \varphi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gj + Tab
+math.bind,M-m g k,⌃m → g → k,math-insert \kappa,Math,Mapped as snippet (VS Code native chords are only two strokes),;gk + Tab
+math.bind,M-m g l,⌃m → g → l,math-insert \lambda,Math,Mapped as snippet (VS Code native chords are only two strokes),;gl + Tab
+math.bind,M-m g m,⌃m → g → m,math-insert \mu,Math,Mapped as snippet (VS Code native chords are only two strokes),;gm + Tab
+math.bind,M-m g n,⌃m → g → n,math-insert \nu,Math,Mapped as snippet (VS Code native chords are only two strokes),;gn + Tab
+math.bind,M-m g o,⌃m → g → o,math-insert \omega,Math,Mapped as snippet (VS Code native chords are only two strokes),;go + Tab
+math.bind,M-m g p,⌃m → g → p,math-insert \pi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gp + Tab
+math.bind,M-m g q,⌃m → g → q,math-insert \vartheta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gq + Tab
+math.bind,M-m g r,⌃m → g → r,math-insert \rho,Math,Mapped as snippet (VS Code native chords are only two strokes),;gr + Tab
+math.bind,M-m g s,⌃m → g → s,math-insert \sigma,Math,Mapped as snippet (VS Code native chords are only two strokes),;gs + Tab
+math.bind,M-m g t,⌃m → g → t,math-insert \tau,Math,Mapped as snippet (VS Code native chords are only two strokes),;gt + Tab
+math.bind,M-m g u,⌃m → g → u,math-insert \upsilon,Math,Mapped as snippet (VS Code native chords are only two strokes),;gu + Tab
+math.bind,M-m g v,⌃m → g → v,math-insert \theta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gv + Tab
+math.bind,M-m g w,⌃m → g → w,math-insert \omega,Math,Mapped as snippet (VS Code native chords are only two strokes),;gw + Tab
+math.bind,M-m g x,⌃m → g → x,math-insert \xi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gx + Tab
+math.bind,M-m g y,⌃m → g → y,math-insert \psi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gy + Tab
+math.bind,M-m g z,⌃m → g → z,math-insert \zeta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gz + Tab
+math.bind,M-m g S-D,⌃m → g → ⇧D,math-insert \Delta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gD + Tab
+math.bind,M-m g S-E,⌃m → g → ⇧E,math-insert \varepsilon,Math,Mapped as snippet (VS Code native chords are only two strokes),;gE + Tab
+math.bind,M-m g S-F,⌃m → g → ⇧F,math-insert \Phi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gF + Tab
+math.bind,M-m g S-G,⌃m → g → ⇧G,math-insert \Gamma,Math,Mapped as snippet (VS Code native chords are only two strokes),;gG + Tab
+math.bind,M-m g S-I,⌃m → g → ⇧I,math-insert \iota,Math,Mapped as snippet (VS Code native chords are only two strokes),;gI + Tab
+math.bind,M-m g S-J,⌃m → g → ⇧J,math-insert \epsilon,Math,Mapped as snippet (VS Code native chords are only two strokes),;gJ + Tab
+math.bind,M-m g S-L,⌃m → g → ⇧L,math-insert \Lambda,Math,Mapped as snippet (VS Code native chords are only two strokes),;gL + Tab
+math.bind,M-m g S-O,⌃m → g → ⇧O,math-insert \Omega,Math,Mapped as snippet (VS Code native chords are only two strokes),;gO + Tab
+math.bind,M-m g S-P,⌃m → g → ⇧P,math-insert \Pi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gP + Tab
+math.bind,M-m g S-Q,⌃m → g → ⇧Q,math-insert \vartheta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gQ + Tab
+math.bind,M-m g S-R,⌃m → g → ⇧R,math-insert \varrho,Math,Mapped as snippet (VS Code native chords are only two strokes),;gR + Tab
+math.bind,M-m g S-S,⌃m → g → ⇧S,math-insert \Sigma,Math,Mapped as snippet (VS Code native chords are only two strokes),;gS + Tab
+math.bind,M-m g S-T,⌃m → g → ⇧T,math-insert \varsigma,Math,Mapped as snippet (VS Code native chords are only two strokes),;gT + Tab
+math.bind,M-m g S-U,⌃m → g → ⇧U,math-insert \Upsilon,Math,Mapped as snippet (VS Code native chords are only two strokes),;gU + Tab
+math.bind,M-m g S-V,⌃m → g → ⇧V,math-insert \Theta,Math,Mapped as snippet (VS Code native chords are only two strokes),;gV + Tab
+math.bind,M-m g S-W,⌃m → g → ⇧W,math-insert \Omega,Math,Mapped as snippet (VS Code native chords are only two strokes),;gW + Tab
+math.bind,M-m g S-X,⌃m → g → ⇧X,math-insert \Xi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gX + Tab
+math.bind,M-m g S-Y,⌃m → g → ⇧Y,math-insert \Psi,Math,Mapped as snippet (VS Code native chords are only two strokes),;gY + Tab
+menus.bind,M-s t,⌃s → t,font-size tiny,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s S-S,⌃s → ⇧S,font-size footnotesize,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s s,⌃s → s,font-size small,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s n,⌃s → n,font-size normal,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s l,⌃s → l,font-size large,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s S-L,⌃s → ⇧L,font-size larger,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s h,⌃s → h,font-size huge,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s S-H,⌃s → ⇧H,font-size giant,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-1,⌃s → [no ⇧]1,font-size tiny,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-2,⌃s → [no ⇧]2,font-size scriptsize,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-3,⌃s → [no ⇧]3,font-size footnotesize,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-4,⌃s → [no ⇧]4,font-size small,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-5,⌃s → [no ⇧]5,font-size normal,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-6,⌃s → [no ⇧]6,font-size large,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-7,⌃s → [no ⇧]7,font-size larger,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-8,⌃s → [no ⇧]8,font-size largest,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-9,⌃s → [no ⇧]9,font-size huge,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-0,⌃s → [no ⇧]0,font-size giant,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-plus,⌃s → [no ⇧]+,font-size increase,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-s ~S-minus,⌃s → [no ⇧]-,font-size decrease,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a l,⌃a → l,paragraph-params \align left,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a r,⌃a → r,paragraph-params \align right,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a c,⌃a → c,paragraph-params \align center,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a j,⌃a → j,paragraph-params \align block,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a e,⌃a → e,paragraph-params \align default,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a i,⌃a → i,paragraph-params \indent-toggle,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a s,⌃a → s,paragraph-params \paragraph_spacing single,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a o,⌃a → o,paragraph-params \paragraph_spacing onehalf,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a d,⌃a → d,paragraph-params \paragraph_spacing double,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a f,⌃a → f,paragraph-params \paragraph_spacing default,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 1,⌃a → 1,argument-insert 1,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 2,⌃a → 2,argument-insert 2,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 3,⌃a → 3,argument-insert 3,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 4,⌃a → 4,argument-insert 4,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 5,⌃a → 5,argument-insert 5,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 6,⌃a → 6,argument-insert 6,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 7,⌃a → 7,argument-insert 7,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 8,⌃a → 8,argument-insert 8,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 9,⌃a → 9,argument-insert 9,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-a 0,⌃a → 0,argument-insert post:1,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-p ~S-0,⌃p → [no ⇧]0,layout Part,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-1,⌃p → [no ⇧]1,layout Chapter,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-2,⌃p → [no ⇧]2,layout Section,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-3,⌃p → [no ⇧]3,layout Subsection,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-4,⌃p → [no ⇧]4,layout Subsubsection,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-5,⌃p → [no ⇧]5,layout Paragraph,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-6,⌃p → [no ⇧]6,layout Subparagraph,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-0,⌃p → [no ⇧]* → [no ⇧]0,layout Part*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-1,⌃p → [no ⇧]* → [no ⇧]1,layout Chapter*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-2,⌃p → [no ⇧]* → [no ⇧]2,layout Section*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-3,⌃p → [no ⇧]* → [no ⇧]3,layout Subsection*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-4,⌃p → [no ⇧]* → [no ⇧]4,layout Subsubsection*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-5,⌃p → [no ⇧]* → [no ⇧]5,layout Paragraph*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p ~S-asterisk ~S-6,⌃p → [no ⇧]* → [no ⇧]6,layout Subparagraph*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p a,⌃p → a,layout Abstract,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-A,⌃p → ⇧A,layout Author,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p M-a,⌃p → ⌃a,layout Address,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p C-a,⌃p → ⌘a,layout Right_Address,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p b,⌃p → b,layout Itemize,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-B,⌃p → ⇧B,layout Bibliography,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p c,⌃p → c,layout LyX-Code,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-C,⌃p → ⇧C,layout Comment,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p d,⌃p → d,layout Description,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-D,⌃p → ⇧D,layout Date,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p e,⌃p → e,layout Enumerate,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p f,⌃p → f,layout ShortFoilhead,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-F,⌃p → ⇧F,layout Foilhead,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p i,⌃p → i,layout Itemize,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p l,⌃p → l,layout Labeling,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-L,⌃p → ⇧L,layout LaTeX,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p n,⌃p → n,layout Enumerate,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p q,⌃p → q,layout Quote,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-Q,⌃p → ⇧Q,layout Quotation,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p r,⌃p → r,layout ShortRotatefoilhead,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-R,⌃p → ⇧R,layout Rotatefoilhead,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p s,⌃p → s,layout Standard,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p t,⌃p → t,layout Title,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p v,⌃p → v,layout Verse,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-at,⌃p → ⇧@,layout Section*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-dollar,⌃p → ⇧$,layout Subsubsection*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-p S-numbersign,⌃p → ⇧#,layout Subsection*,Formatting / structure,LyX layout-specific; normally write the LaTeX environment/section command directly,
+menus.bind,M-c b,⌃c → b,font-boldsymbol,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c c,⌃c → c,font-noun,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c d,⌃c → d,font-underunderline,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c e,⌃c → e,font-emph,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c m,⌃c → m,math-mode,Math / LaTeX,Math-related; available for optional custom mapping,
+menus.bind,M-c o,⌃c → o,font-strikeout,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c r,⌃c → r,font-roman,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c s,⌃c → s,font-sans,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c u,⌃c → u,font-underline,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c w,⌃c → w,font-underwave,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",
+menus.bind,M-c space,⌃c → Space,font-default,Formatting / structure,"Formatting-related; optional snippet/keybinding, not enabled by default",

@@ -1,0 +1,434 @@
+﻿source_file,lyx_binding,macOS_keys,LyX_action,category,migration_relevance
+site.bind,Right,→,char-right,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,Left,←,char-left,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,Up,↑,up,Other,Low / VS Code native or LyX-specific
+site.bind,Down,↓,down,Other,Low / VS Code native or LyX-specific
+site.bind,Tab,Tab,command-alternatives completion-accept;cell-forward;tab-insert;outline-in;depth-increment,Other,Low / VS Code native or LyX-specific
+site.bind,C-Tab,⌘Tab,cell-split,Table,Low / VS Code native or LyX-specific
+site.bind,~S-ISO_Left_Tab,[no ⇧]ISO Left Tab,cell-backward,Table,Low / VS Code native or LyX-specific
+site.bind,~S-BackTab,[no ⇧]BackTab,command-alternatives cell-backward;tab-delete;outline-out;depth-decrement,Other,Low / VS Code native or LyX-specific
+site.bind,Home,Home,line-begin,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,End,End,line-end,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,Prior,Page Up,screen-up,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,Next,Page Down,screen-down,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,Return,↩ Return,paragraph-break,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,Delete,⌦ Delete,char-delete-forward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,BackSpace,⌫ Backspace,char-delete-backward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_Enter,Numpad Enter,paragraph-break,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_Right,Numpad Right,char-right,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_Left,Numpad Left,char-left,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_Up,Numpad Up,up,Other,Low / VS Code native or LyX-specific
+site.bind,KP_Down,Numpad Down,down,Other,Low / VS Code native or LyX-specific
+site.bind,KP_Home,Numpad Home,line-begin,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_End,Numpad End,line-end,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_Prior,Numpad Prior,screen-up,Editing / navigation,Low / VS Code native or LyX-specific
+site.bind,KP_Next,Numpad Next,screen-down,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-b,⌃b,char-backward,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-d,⌃d,char-delete-forward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-e,⌃e,line-end,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-f,⌃f,char-forward,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-h,⌃h,char-delete-backward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-l,⌃l,scroll caret toggle,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,F5,F5,scroll caret toggle,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-n,⌃n,down,Other,Low / VS Code native or LyX-specific
+mac.bind,M-o,⌃o,paragraph-break,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-t,⌃t,chars-transpose,Other,Low / VS Code native or LyX-specific
+mac.bind,M-v,⌃v,scroll page up,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-Tab,⌃Tab,buffer-next,File / window,Low / VS Code native or LyX-specific
+mac.bind,A-Tab,⌥Tab,buffer-next,File / window,Low / VS Code native or LyX-specific
+mac.bind,M-S-BackTab,⌃⇧BackTab,buffer-previous,File / window,Low / VS Code native or LyX-specific
+mac.bind,A-S-BackTab,⌥⇧BackTab,buffer-previous,File / window,Low / VS Code native or LyX-specific
+mac.bind,Delete,⌦ Delete,char-delete-forward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-0,⌘0,buffer-zoom,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-minus,⌘-,buffer-zoom-out,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-plus,⌘+,buffer-zoom-in,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-S-equal,⌘⇧=,buffer-zoom-in,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-equal,⌘=,buffer-zoom-in,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-S-semicolon,⌘⇧;,dialog-show spellchecker,Other,Low / VS Code native or LyX-specific
+mac.bind,C-comma,"⌘,",dialog-show prefs,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-a,⌘⌃a,command-sequence buffer-begin ; buffer-end-select,Other,Low / VS Code native or LyX-specific
+mac.bind,C-a,⌘a,inset-select-all,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-b,⌘⌃b,font-boldsymbol,Formatting / structure,High
+mac.bind,C-b,⌘b,font-bold,Formatting / structure,High
+mac.bind,C-c,⌘c,copy,Editing / navigation,Medium
+mac.bind,C-d,⌘d,buffer-view dvi,Build / preview,High
+mac.bind,C-M-d,⌘⌃d,command-alternatives master-buffer-view dvi; buffer.view dvi,Other,Low / VS Code native or LyX-specific
+mac.bind,C-S-D,⌘⇧D,buffer-update dvi,Build / preview,High
+mac.bind,C-e,⌘e,search-string-set,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-e,⌘⌃e,font-emph,Formatting / structure,High
+mac.bind,C-f,⌘f,dialog-show findreplace,Other,Medium
+mac.bind,C-S-f,⌘⇧f,dialog-show findreplaceadv,Other,Medium
+mac.bind,C-g,⌘g,word-find-forward,Editing / navigation,Medium
+mac.bind,C-S-g,⌘⇧g,word-find-backward,Editing / navigation,Medium
+mac.bind,C-i,⌘i,inset-toggle,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-i,⌘⌃i,inset-settings,Other,Low / VS Code native or LyX-specific
+mac.bind,C-k,⌘k,line-delete-forward,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-m,⌘m,math-mode,Math / LaTeX,High
+mac.bind,C-S-M,⌘⇧M,math-display,Math / LaTeX,High
+mac.bind,C-M-n,⌘⌃n,command-sequence math-display; math-number-toggle;,Other,Low / VS Code native or LyX-specific
+mac.bind,C-n,⌘n,buffer-new,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-S-N,⌘⇧N,dialog-show lyxfiles templates,Other,Low / VS Code native or LyX-specific
+mac.bind,C-o,⌘o,file-open,File / window,Medium
+mac.bind,C-S-P,⌘⇧P,font-typewriter,Formatting / structure,High
+mac.bind,C-q,⌘q,lyx-quit,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-r,⌘r,buffer-view,Build / preview,High
+mac.bind,C-s,⌘s,buffer-write,File / window,Medium
+mac.bind,C-S-S,⌘⇧S,buffer-write-as,File / window,Medium
+mac.bind,C-t,⌘t,buffer-view pdf,Build / preview,High
+mac.bind,C-M-t,⌘⌃t,command-alternatives master-buffer-view pdf; buffer-view pdf,Other,Low / VS Code native or LyX-specific
+mac.bind,C-u,⌘u,font-underline,Formatting / structure,High
+mac.bind,C-v,⌘v,paste,Editing / navigation,Medium
+mac.bind,C-S-v,⌘⇧v,clipboard-paste,Other,Low / VS Code native or LyX-specific
+mac.bind,C-S-A-v,⌘⇧⌥v,clipboard-paste paragraph,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-v,⌘⌃v,primary-selection-paste,Other,Low / VS Code native or LyX-specific
+mac.bind,C-w,⌘w,view-close,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-S-w,⌘⇧w,window-close,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-A-w,⌘⌥w,buffer-close-all,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-x,⌘x,cut,Editing / navigation,Medium
+mac.bind,M-x,⌃x,command-execute,Other,Low / VS Code native or LyX-specific
+mac.bind,C-z,⌘z,undo,Editing / navigation,Medium
+mac.bind,C-S-Z,⌘⇧Z,redo,Editing / navigation,Medium
+mac.bind,C-Right,⌘→,line-end,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-Left,⌘←,line-begin,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-Down,⌘↓,buffer-end,File / window,Low / VS Code native or LyX-specific
+mac.bind,M-A-Down,⌃⌥↓,inset-end,Other,Low / VS Code native or LyX-specific
+mac.bind,C-Up,⌘↑,buffer-begin,File / window,Low / VS Code native or LyX-specific
+mac.bind,M-A-Up,⌃⌥↑,inset-begin,Other,Low / VS Code native or LyX-specific
+mac.bind,S-C-Right,⇧⌘→,line-end-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-C-Left,⇧⌘←,line-begin-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-Right,⇧→,char-right-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-Left,⇧←,char-left-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-C-Up,⇧⌘↑,buffer-begin-select,File / window,Low / VS Code native or LyX-specific
+mac.bind,S-C-Down,⇧⌘↓,buffer-end-select,File / window,Low / VS Code native or LyX-specific
+mac.bind,S-Up,⇧↑,up-select,Other,Low / VS Code native or LyX-specific
+mac.bind,S-Down,⇧↓,down-select,Other,Low / VS Code native or LyX-specific
+mac.bind,A-Right,⌥→,word-right,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-A-Right,⇧⌥→,word-right-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,A-Left,⌥←,word-left,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-A-Left,⇧⌥←,word-left-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,A-Down,⌥↓,paragraph-down,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-A-Down,⇧⌥↓,paragraph-down-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-M-A-Down,⇧⌃⌥↓,inset-end-select,Other,Low / VS Code native or LyX-specific
+mac.bind,A-Up,⌥↑,paragraph-up,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-A-Up,⇧⌥↑,paragraph-up-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-M-A-Up,⇧⌃⌥↑,inset-begin-select,Other,Low / VS Code native or LyX-specific
+mac.bind,C-S-O,⌘⇧O,font-strikeout,Formatting / structure,High
+mac.bind,C-S-T,⌘⇧T,buffer-update pdf,Build / preview,High
+mac.bind,C-S-R,⌘⇧R,buffer-update,Build / preview,High
+mac.bind,C-M-S-T,⌘⌃⇧T,command-alternatives master-buffer-update pdf; buffer-update pdf,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-S-D,⌘⌃⇧D,command-alternatives master-buffer-update dvi; buffer-update dvi,Other,Low / VS Code native or LyX-specific
+mac.bind,C-S-E,⌘⇧E,changes-track,Other,Low / VS Code native or LyX-specific
+mac.bind,~S-M-quotedbl,"⌃[no ⇧]""",quote-insert inner,Other,Low / VS Code native or LyX-specific
+mac.bind,~S-C-quotedbl,"⌘[no ⇧]""",quote-insert outer auto plain,Other,Low / VS Code native or LyX-specific
+mac.bind,C-S-underscore,⌘⇧_,command-alternatives math-macro-fold;specialchar-insert hyphenation,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-minus,⌘⌃-,specialchar-insert nobreakdash,Other,Low / VS Code native or LyX-specific
+mac.bind,M-C-Right,⌃⌘→,depth-increment,Formatting / structure,Low / VS Code native or LyX-specific
+mac.bind,M-C-Left,⌃⌘←,depth-decrement,Formatting / structure,Low / VS Code native or LyX-specific
+mac.bind,C-S-L,⌘⇧L,specialchar-insert ligature-break,Other,Low / VS Code native or LyX-specific
+mac.bind,C-l,⌘l,ert-insert,Math / LaTeX,High
+mac.bind,C-S-I,⌘⇧I,info-insert,Other,Low / VS Code native or LyX-specific
+mac.bind,F2,F2,buffer-write force,File / window,Medium
+mac.bind,C-F4,⌘F4,buffer-close,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-A-Up,⌘⌥↑,scroll line up,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-A-Down,⌘⌥↓,scroll line down,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-A-Prior,⌘⌥Page Up,scroll page up,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-A-Next,⌘⌥Page Down,scroll page down,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,F7,F7,dialog-show spellchecker,Other,Low / VS Code native or LyX-specific
+mac.bind,S-F7,⇧F7,thesaurus-entry,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-o,⌘⌃o,dialog-show toc,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-greater,⌘[no ⇧]>,label-goto,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-less,⌘[no ⇧]<,bookmark-goto 0,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,S-Prior,⇧Page Up,screen-up-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-Next,⇧Page Down,screen-down-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-Insert,⌘Insert,copy,Editing / navigation,Medium
+mac.bind,S-Insert,⇧Insert,paste,Editing / navigation,Medium
+mac.bind,S-Delete,⇧⌦ Delete,cut,Editing / navigation,Medium
+mac.bind,S-KP_Right,⇧Numpad Right,char-right-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-KP_Left,⇧Numpad Left,char-left-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-KP_Up,⇧Numpad Up,up-select,Other,Low / VS Code native or LyX-specific
+mac.bind,S-KP_Down,⇧Numpad Down,down-select,Other,Low / VS Code native or LyX-specific
+mac.bind,S-M-KP_Right,⇧⌃Numpad Right,word-right-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-M-KP_Left,⇧⌃Numpad Left,word-left-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-M-KP_Up,⇧⌃Numpad Up,paragraph-up-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-M-KP_Down,⇧⌃Numpad Down,paragraph-down-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-KP_Home,⇧Numpad Home,line-begin-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-KP_End,⇧Numpad End,line-end-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-KP_Prior,⇧Numpad Prior,screen-up-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-KP_Next,⇧Numpad Next,screen-down-select,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,S-C-KP_Home,⇧⌘Numpad Home,buffer-begin-select,File / window,Low / VS Code native or LyX-specific
+mac.bind,S-C-KP_End,⇧⌘Numpad End,buffer-end-select,File / window,Low / VS Code native or LyX-specific
+mac.bind,S-C-KP_Prior,⇧⌘Numpad Prior,buffer-move-previous,File / window,Low / VS Code native or LyX-specific
+mac.bind,S-C-KP_Next,⇧⌘Numpad Next,buffer-move-next,File / window,Low / VS Code native or LyX-specific
+mac.bind,C-KP_Insert,⌘Numpad Insert,copy,Editing / navigation,Medium
+mac.bind,S-KP_Insert,⇧Numpad Insert,paste,Editing / navigation,Medium
+mac.bind,S-KP_Delete,⇧Numpad Delete,cut,Editing / navigation,Medium
+mac.bind,C-~S-1,⌘[no ⇧]1,bookmark-goto 1,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-2,⌘[no ⇧]2,bookmark-goto 2,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-3,⌘[no ⇧]3,bookmark-goto 3,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-4,⌘[no ⇧]4,bookmark-goto 4,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-5,⌘[no ⇧]5,bookmark-goto 5,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-6,⌘[no ⇧]6,bookmark-goto 6,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-7,⌘[no ⇧]7,bookmark-goto 7,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-8,⌘[no ⇧]8,bookmark-goto 8,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-~S-9,⌘[no ⇧]9,bookmark-goto 9,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-1,⌘⌃[no ⇧]1,bookmark-save 1,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-2,⌘⌃[no ⇧]2,bookmark-save 2,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-3,⌘⌃[no ⇧]3,bookmark-save 3,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-4,⌘⌃[no ⇧]4,bookmark-save 4,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-5,⌘⌃[no ⇧]5,bookmark-save 5,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-6,⌘⌃[no ⇧]6,bookmark-save 6,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-7,⌘⌃[no ⇧]7,bookmark-save 7,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-8,⌘⌃[no ⇧]8,bookmark-save 8,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,C-M-~S-9,⌘⌃[no ⇧]9,bookmark-save 9,Navigation / references,Low / VS Code native or LyX-specific
+mac.bind,A-Delete,⌥⌦ Delete,word-delete-forward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,A-BackSpace,⌥⌫ Backspace,word-delete-backward confirm,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,M-Return,⌃↩ Return,paragraph-break inverse,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-Return,⌘↩ Return,newline-insert newline,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,C-S-Return,⌘⇧↩ Return,newline-insert linebreak,Editing / navigation,Low / VS Code native or LyX-specific
+mac.bind,A-space,⌥Space,command-alternatives math-space ; space-insert protected,Other,Low / VS Code native or LyX-specific
+mac.bind,nobreakspace,nobreakspace,space-insert protected,Other,Low / VS Code native or LyX-specific
+mac.bind,C-A-space,⌘⌥Space,space-insert normal,Other,Low / VS Code native or LyX-specific
+mac.bind,S-A-space,⇧⌥Space,space-insert thin,Other,Low / VS Code native or LyX-specific
+mac.bind,C-~S-slash,⌘[no ⇧]/,specialchar-insert slash,Other,Low / VS Code native or LyX-specific
+mac.bind,C-~S-period,⌘[no ⇧].,specialchar-insert end-of-sentence,Other,Low / VS Code native or LyX-specific
+mac.bind,M-~S-period,⌃[no ⇧].,specialchar-insert dots,Other,Low / VS Code native or LyX-specific
+mac.bind,Escape,Esc,cancel,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-Up,⌘⌃↑,command-alternatives outline-up; paragraph-move-up; tabular-feature move-row-up,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-Down,⌘⌃↓,command-alternatives outline-down; paragraph-move-down; tabular-feature move-row-down,Other,Low / VS Code native or LyX-specific
+mac.bind,C-M-Right,⌘⌃→,tabular-feature move-column-right,Table,High
+mac.bind,C-M-Left,⌘⌃←,tabular-feature move-column-left,Table,High
+mac.bind,C-M-F,⌘⌃F,ui-toggle fullscreen,Other,Low / VS Code native or LyX-specific
+mac.bind,C-A-F,⌘⌥F,forward-search,Build / preview,High
+math.bind,M-m f,⌃m → f,math-insert \frac,Math,High
+math.bind,M-m s,⌃m → s,math-insert \sqrt,Math,High
+math.bind,M-m x,⌃m → x,math-subscript,Math,High
+math.bind,M-m e,⌃m → e,math-superscript,Math,High
+math.bind,M-m u,⌃m → u,math-insert \sum,Math,High
+math.bind,M-m i,⌃m → i,math-insert \int,Math,High
+math.bind,M-m m,⌃m → m,math-mode,Math,High
+math.bind,M-m d,⌃m → d,math-display,Math,High
+math.bind,M-m y,⌃m → y,math-insert \oint,Math,High
+math.bind,M-m p,⌃m → p,math-insert \partial,Math,High
+math.bind,M-m r,⌃m → r,math-insert \root,Math,High
+math.bind,M-m l,⌃m → l,math-limits,Math,High
+math.bind,M-m S-L l,⌃m → ⇧L → l,math-limits limits,Math,High
+math.bind,M-m S-L n,⌃m → ⇧L → n,math-limits nolimits,Math,High
+math.bind,M-m S-L space,⌃m → ⇧L → Space,math-limits empty,Math,High
+math.bind,M-m n,⌃m → n,math-number-toggle,Math,High
+math.bind,M-m S-N,⌃m → ⇧N,math-number-line-toggle,Math,High
+math.bind,M-m 8,⌃m → 8,math-insert \infty,Math,High
+math.bind,M-m o 1,⌃m → o → 1,self-insert \#1,Math,High
+math.bind,M-m o 2,⌃m → o → 2,self-insert \#2,Math,High
+math.bind,M-m o 3,⌃m → o → 3,self-insert \#3,Math,High
+math.bind,M-m o 4,⌃m → o → 4,self-insert \#4,Math,High
+math.bind,M-m o 5,⌃m → o → 5,self-insert \#5,Math,High
+math.bind,M-m o 6,⌃m → o → 6,self-insert \#6,Math,High
+math.bind,M-m o 7,⌃m → o → 7,self-insert \#7,Math,High
+math.bind,M-m o 8,⌃m → o → 8,self-insert \#8,Math,High
+math.bind,M-m o 9,⌃m → o → 9,self-insert \#9,Math,High
+math.bind,M-m t n,⌃m → t → n,math-mutate none,Math,High
+math.bind,M-m t t,⌃m → t → t,math-mutate dump,Math,High
+math.bind,M-m t a,⌃m → t → a,math-mutate align,Math,High
+math.bind,M-m t i,⌃m → t → i,math-mutate simple,Math,High
+math.bind,M-m t d,⌃m → t → d,math-mutate equation,Math,High
+math.bind,M-m t e,⌃m → t → e,math-mutate eqnarray,Math,High
+math.bind,M-m t m,⌃m → t → m,math-mutate multline,Math,High
+math.bind,M-m c i,⌃m → c → i,tabular-feature append-column,Math,High
+math.bind,M-m c d,⌃m → c → d,tabular-feature delete-column,Math,High
+math.bind,M-m c c,⌃m → c → c,tabular-feature copy-column,Math,High
+math.bind,M-m c s,⌃m → c → s,tabular-feature swap-column,Math,High
+math.bind,M-m c a,⌃m → c → a,tabular-feature add-vline-left,Math,High
+math.bind,M-m c e,⌃m → c → e,tabular-feature delete-vline-left,Math,High
+math.bind,M-m c z,⌃m → c → z,tabular-feature add-vline-right,Math,High
+math.bind,M-m c x,⌃m → c → x,tabular-feature delete-vline-right,Math,High
+math.bind,M-m w i,⌃m → w → i,tabular-feature append-row,Math,High
+math.bind,M-m w d,⌃m → w → d,tabular-feature delete-row,Math,High
+math.bind,M-m w c,⌃m → w → c,tabular-feature copy-row,Math,High
+math.bind,M-m w s,⌃m → w → s,tabular-feature swap-row,Math,High
+math.bind,M-m w a,⌃m → w → a,tabular-feature add-hline-above,Math,High
+math.bind,M-m w e,⌃m → w → e,tabular-feature delete-hline-above,Math,High
+math.bind,M-m w z,⌃m → w → z,tabular-feature add-hline-below,Math,High
+math.bind,M-m w x,⌃m → w → x,tabular-feature delete-hline-below,Math,High
+math.bind,M-m w t,⌃m → w → t,tabular-feature valign-top,Math,High
+math.bind,M-m w m,⌃m → w → m,tabular-feature valign-middle,Math,High
+math.bind,M-m w b,⌃m → w → b,tabular-feature valign-bottom,Math,High
+math.bind,M-m c l,⌃m → c → l,tabular-feature align-left,Math,High
+math.bind,M-m c m,⌃m → c → m,tabular-feature align-center,Math,High
+math.bind,M-m c r,⌃m → c → r,tabular-feature align-right,Math,High
+math.bind,M-m ~S-quotedbl,"⌃m → [no ⇧]""",math-insert \ddot,Math,High
+math.bind,M-m h,⌃m → h,math-insert \hat,Math,High
+math.bind,M-m ~C-~M-~S-backslash,⌃m → [no ⌘ no ⌃ no ⇧]\,math-insert \grave,Math,High
+math.bind,M-m ~S-slash,⌃m → [no ⇧]/,math-insert \acute,Math,High
+math.bind,M-m ~C-~M-~S-ampersand,⌃m → [no ⌘ no ⌃ no ⇧]&,math-insert \tilde,Math,High
+math.bind,M-m ~S-minus,⌃m → [no ⇧]-,math-insert \bar,Math,High
+math.bind,M-m ~S-period,⌃m → [no ⇧].,math-insert \dot,Math,High
+math.bind,M-m S-V,⌃m → ⇧V,math-insert \check,Math,High
+math.bind,M-m S-U,⌃m → ⇧U,math-insert \breve,Math,High
+math.bind,M-m v,⌃m → v,math-insert \vec,Math,High
+math.bind,M-m ~S-underscore,⌃m → [no ⇧]_,math-insert \underbar,Math,High
+math.bind,M-m b,⌃m → b,math-insert \overline,Math,High
+math.bind,M-m ~S-apostrophe,⌃m → [no ⇧]',math-insert \prime,Math,High
+math.bind,M-m ~S-parenleft,⌃m → [no ⇧](,math-delim ( ),Math,High
+math.bind,M-m ~C-~M-~S-bracketleft,⌃m → [no ⌘ no ⌃ no ⇧][,math-delim [ ],Math,High
+math.bind,M-m ~C-~M-~S-braceleft,⌃m → [no ⌘ no ⌃ no ⇧]{,math-delim { },Math,High
+math.bind,M-m ~S-less,⌃m → [no ⇧]<,math-delim langle rangle,Math,High
+math.bind,M-m ~S-greater,⌃m → [no ⇧]>,math-delim rangle langle,Math,High
+math.bind,M-m ~C-~M-~S-bar,⌃m → [no ⌘ no ⌃ no ⇧]|,math-delim | |,Math,High
+math.bind,M-m ~S-plus,⌃m → [no ⇧]+,math-insert \pm,Math,High
+math.bind,M-m ~S-equal,⌃m → [no ⇧]=,math-insert \neq,Math,High
+math.bind,Escape,Esc,escape,Math,High
+math.bind,M-m space,⌃m → Space,math-space,Math,High
+math.bind,C-S-asterisk,⌘⇧*,math-macro-unfold,Math,High
+math.bind,M-m g a,⌃m → g → a,math-insert \alpha,Math,High
+math.bind,M-m g b,⌃m → g → b,math-insert \beta,Math,High
+math.bind,M-m g c,⌃m → g → c,math-insert \chi,Math,High
+math.bind,M-m g d,⌃m → g → d,math-insert \delta,Math,High
+math.bind,M-m g e,⌃m → g → e,math-insert \epsilon,Math,High
+math.bind,M-m g f,⌃m → g → f,math-insert \phi,Math,High
+math.bind,M-m g g,⌃m → g → g,math-insert \gamma,Math,High
+math.bind,M-m g h,⌃m → g → h,math-insert \eta,Math,High
+math.bind,M-m g i,⌃m → g → i,math-insert \iota,Math,High
+math.bind,M-m g j,⌃m → g → j,math-insert \varphi,Math,High
+math.bind,M-m g k,⌃m → g → k,math-insert \kappa,Math,High
+math.bind,M-m g l,⌃m → g → l,math-insert \lambda,Math,High
+math.bind,M-m g m,⌃m → g → m,math-insert \mu,Math,High
+math.bind,M-m g n,⌃m → g → n,math-insert \nu,Math,High
+math.bind,M-m g o,⌃m → g → o,math-insert \omega,Math,High
+math.bind,M-m g p,⌃m → g → p,math-insert \pi,Math,High
+math.bind,M-m g q,⌃m → g → q,math-insert \vartheta,Math,High
+math.bind,M-m g r,⌃m → g → r,math-insert \rho,Math,High
+math.bind,M-m g s,⌃m → g → s,math-insert \sigma,Math,High
+math.bind,M-m g t,⌃m → g → t,math-insert \tau,Math,High
+math.bind,M-m g u,⌃m → g → u,math-insert \upsilon,Math,High
+math.bind,M-m g v,⌃m → g → v,math-insert \theta,Math,High
+math.bind,M-m g w,⌃m → g → w,math-insert \omega,Math,High
+math.bind,M-m g x,⌃m → g → x,math-insert \xi,Math,High
+math.bind,M-m g y,⌃m → g → y,math-insert \psi,Math,High
+math.bind,M-m g z,⌃m → g → z,math-insert \zeta,Math,High
+math.bind,M-m g S-D,⌃m → g → ⇧D,math-insert \Delta,Math,High
+math.bind,M-m g S-E,⌃m → g → ⇧E,math-insert \varepsilon,Math,High
+math.bind,M-m g S-F,⌃m → g → ⇧F,math-insert \Phi,Math,High
+math.bind,M-m g S-G,⌃m → g → ⇧G,math-insert \Gamma,Math,High
+math.bind,M-m g S-I,⌃m → g → ⇧I,math-insert \iota,Math,High
+math.bind,M-m g S-J,⌃m → g → ⇧J,math-insert \epsilon,Math,High
+math.bind,M-m g S-L,⌃m → g → ⇧L,math-insert \Lambda,Math,High
+math.bind,M-m g S-O,⌃m → g → ⇧O,math-insert \Omega,Math,High
+math.bind,M-m g S-P,⌃m → g → ⇧P,math-insert \Pi,Math,High
+math.bind,M-m g S-Q,⌃m → g → ⇧Q,math-insert \vartheta,Math,High
+math.bind,M-m g S-R,⌃m → g → ⇧R,math-insert \varrho,Math,High
+math.bind,M-m g S-S,⌃m → g → ⇧S,math-insert \Sigma,Math,High
+math.bind,M-m g S-T,⌃m → g → ⇧T,math-insert \varsigma,Math,High
+math.bind,M-m g S-U,⌃m → g → ⇧U,math-insert \Upsilon,Math,High
+math.bind,M-m g S-V,⌃m → g → ⇧V,math-insert \Theta,Math,High
+math.bind,M-m g S-W,⌃m → g → ⇧W,math-insert \Omega,Math,High
+math.bind,M-m g S-X,⌃m → g → ⇧X,math-insert \Xi,Math,High
+math.bind,M-m g S-Y,⌃m → g → ⇧Y,math-insert \Psi,Math,High
+menus.bind,M-s t,⌃s → t,font-size tiny,Formatting / structure,High
+menus.bind,M-s S-S,⌃s → ⇧S,font-size footnotesize,Formatting / structure,High
+menus.bind,M-s s,⌃s → s,font-size small,Formatting / structure,High
+menus.bind,M-s n,⌃s → n,font-size normal,Formatting / structure,High
+menus.bind,M-s l,⌃s → l,font-size large,Formatting / structure,High
+menus.bind,M-s S-L,⌃s → ⇧L,font-size larger,Formatting / structure,High
+menus.bind,M-s h,⌃s → h,font-size huge,Formatting / structure,High
+menus.bind,M-s S-H,⌃s → ⇧H,font-size giant,Formatting / structure,High
+menus.bind,M-s ~S-1,⌃s → [no ⇧]1,font-size tiny,Formatting / structure,High
+menus.bind,M-s ~S-2,⌃s → [no ⇧]2,font-size scriptsize,Formatting / structure,High
+menus.bind,M-s ~S-3,⌃s → [no ⇧]3,font-size footnotesize,Formatting / structure,High
+menus.bind,M-s ~S-4,⌃s → [no ⇧]4,font-size small,Formatting / structure,High
+menus.bind,M-s ~S-5,⌃s → [no ⇧]5,font-size normal,Formatting / structure,High
+menus.bind,M-s ~S-6,⌃s → [no ⇧]6,font-size large,Formatting / structure,High
+menus.bind,M-s ~S-7,⌃s → [no ⇧]7,font-size larger,Formatting / structure,High
+menus.bind,M-s ~S-8,⌃s → [no ⇧]8,font-size largest,Formatting / structure,High
+menus.bind,M-s ~S-9,⌃s → [no ⇧]9,font-size huge,Formatting / structure,High
+menus.bind,M-s ~S-0,⌃s → [no ⇧]0,font-size giant,Formatting / structure,High
+menus.bind,M-s ~S-plus,⌃s → [no ⇧]+,font-size increase,Formatting / structure,High
+menus.bind,M-s ~S-minus,⌃s → [no ⇧]-,font-size decrease,Formatting / structure,High
+menus.bind,M-a l,⌃a → l,paragraph-params \align left,Formatting / structure,High
+menus.bind,M-a r,⌃a → r,paragraph-params \align right,Formatting / structure,High
+menus.bind,M-a c,⌃a → c,paragraph-params \align center,Formatting / structure,High
+menus.bind,M-a j,⌃a → j,paragraph-params \align block,Formatting / structure,High
+menus.bind,M-a e,⌃a → e,paragraph-params \align default,Formatting / structure,High
+menus.bind,M-a i,⌃a → i,paragraph-params \indent-toggle,Formatting / structure,High
+menus.bind,M-a s,⌃a → s,paragraph-params \paragraph_spacing single,Formatting / structure,High
+menus.bind,M-a o,⌃a → o,paragraph-params \paragraph_spacing onehalf,Formatting / structure,High
+menus.bind,M-a d,⌃a → d,paragraph-params \paragraph_spacing double,Formatting / structure,High
+menus.bind,M-a f,⌃a → f,paragraph-params \paragraph_spacing default,Formatting / structure,High
+menus.bind,M-a 1,⌃a → 1,argument-insert 1,Formatting / structure,High
+menus.bind,M-a 2,⌃a → 2,argument-insert 2,Formatting / structure,High
+menus.bind,M-a 3,⌃a → 3,argument-insert 3,Formatting / structure,High
+menus.bind,M-a 4,⌃a → 4,argument-insert 4,Formatting / structure,High
+menus.bind,M-a 5,⌃a → 5,argument-insert 5,Formatting / structure,High
+menus.bind,M-a 6,⌃a → 6,argument-insert 6,Formatting / structure,High
+menus.bind,M-a 7,⌃a → 7,argument-insert 7,Formatting / structure,High
+menus.bind,M-a 8,⌃a → 8,argument-insert 8,Formatting / structure,High
+menus.bind,M-a 9,⌃a → 9,argument-insert 9,Formatting / structure,High
+menus.bind,M-a 0,⌃a → 0,argument-insert post:1,Formatting / structure,High
+menus.bind,M-p ~S-0,⌃p → [no ⇧]0,layout Part,Formatting / structure,High
+menus.bind,M-p ~S-1,⌃p → [no ⇧]1,layout Chapter,Formatting / structure,High
+menus.bind,M-p ~S-2,⌃p → [no ⇧]2,layout Section,Formatting / structure,High
+menus.bind,M-p ~S-3,⌃p → [no ⇧]3,layout Subsection,Formatting / structure,High
+menus.bind,M-p ~S-4,⌃p → [no ⇧]4,layout Subsubsection,Formatting / structure,High
+menus.bind,M-p ~S-5,⌃p → [no ⇧]5,layout Paragraph,Formatting / structure,High
+menus.bind,M-p ~S-6,⌃p → [no ⇧]6,layout Subparagraph,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-0,⌃p → [no ⇧]* → [no ⇧]0,layout Part*,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-1,⌃p → [no ⇧]* → [no ⇧]1,layout Chapter*,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-2,⌃p → [no ⇧]* → [no ⇧]2,layout Section*,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-3,⌃p → [no ⇧]* → [no ⇧]3,layout Subsection*,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-4,⌃p → [no ⇧]* → [no ⇧]4,layout Subsubsection*,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-5,⌃p → [no ⇧]* → [no ⇧]5,layout Paragraph*,Formatting / structure,High
+menus.bind,M-p ~S-asterisk ~S-6,⌃p → [no ⇧]* → [no ⇧]6,layout Subparagraph*,Formatting / structure,High
+menus.bind,M-p a,⌃p → a,layout Abstract,Formatting / structure,High
+menus.bind,M-p S-A,⌃p → ⇧A,layout Author,Formatting / structure,High
+menus.bind,M-p M-a,⌃p → ⌃a,layout Address,Formatting / structure,High
+menus.bind,M-p C-a,⌃p → ⌘a,layout Right_Address,Formatting / structure,High
+menus.bind,M-p b,⌃p → b,layout Itemize,Formatting / structure,High
+menus.bind,M-p S-B,⌃p → ⇧B,layout Bibliography,Formatting / structure,High
+menus.bind,M-p c,⌃p → c,layout LyX-Code,Formatting / structure,High
+menus.bind,M-p S-C,⌃p → ⇧C,layout Comment,Formatting / structure,High
+menus.bind,M-p d,⌃p → d,layout Description,Formatting / structure,High
+menus.bind,M-p S-D,⌃p → ⇧D,layout Date,Formatting / structure,High
+menus.bind,M-p e,⌃p → e,layout Enumerate,Formatting / structure,High
+menus.bind,M-p f,⌃p → f,layout ShortFoilhead,Formatting / structure,High
+menus.bind,M-p S-F,⌃p → ⇧F,layout Foilhead,Formatting / structure,High
+menus.bind,M-p i,⌃p → i,layout Itemize,Formatting / structure,High
+menus.bind,M-p l,⌃p → l,layout Labeling,Formatting / structure,High
+menus.bind,M-p S-L,⌃p → ⇧L,layout LaTeX,Formatting / structure,High
+menus.bind,M-p n,⌃p → n,layout Enumerate,Formatting / structure,High
+menus.bind,M-p q,⌃p → q,layout Quote,Formatting / structure,High
+menus.bind,M-p S-Q,⌃p → ⇧Q,layout Quotation,Formatting / structure,High
+menus.bind,M-p r,⌃p → r,layout ShortRotatefoilhead,Formatting / structure,High
+menus.bind,M-p S-R,⌃p → ⇧R,layout Rotatefoilhead,Formatting / structure,High
+menus.bind,M-p s,⌃p → s,layout Standard,Formatting / structure,High
+menus.bind,M-p t,⌃p → t,layout Title,Formatting / structure,High
+menus.bind,M-p space,⌃p → Space,drop-layouts-choice,Other,Low / VS Code native or LyX-specific
+menus.bind,M-p v,⌃p → v,layout Verse,Formatting / structure,High
+menus.bind,M-p Left,⌃p → ←,outline-out,Formatting / structure,Low / VS Code native or LyX-specific
+menus.bind,M-p Right,⌃p → →,outline-in,Formatting / structure,Low / VS Code native or LyX-specific
+menus.bind,M-p Up,⌃p → ↑,outline-up,Formatting / structure,Low / VS Code native or LyX-specific
+menus.bind,M-p Down,⌃p → ↓,outline-down,Formatting / structure,Low / VS Code native or LyX-specific
+menus.bind,M-p M-Return,⌃p → ⌃↩ Return,environment-split before,Formatting / structure,Low / VS Code native or LyX-specific
+menus.bind,M-p Return,⌃p → ↩ Return,command-alternatives environment-split ; environment-split previous,Other,Low / VS Code native or LyX-specific
+menus.bind,M-p S-Return,⌃p → ⇧↩ Return,environment-split outer,Formatting / structure,Low / VS Code native or LyX-specific
+menus.bind,M-p S-at,⌃p → ⇧@,layout Section*,Formatting / structure,High
+menus.bind,M-p S-dollar,⌃p → ⇧$,layout Subsubsection*,Formatting / structure,High
+menus.bind,M-p S-numbersign,⌃p → ⇧#,layout Subsection*,Formatting / structure,High
+menus.bind,M-c b,⌃c → b,font-boldsymbol,Formatting / structure,High
+menus.bind,M-c c,⌃c → c,font-noun,Formatting / structure,High
+menus.bind,M-c d,⌃c → d,font-underunderline,Formatting / structure,High
+menus.bind,M-c e,⌃c → e,font-emph,Formatting / structure,High
+menus.bind,M-c m,⌃c → m,math-mode,Math / LaTeX,High
+menus.bind,M-c o,⌃c → o,font-strikeout,Formatting / structure,High
+menus.bind,M-c r,⌃c → r,font-roman,Formatting / structure,High
+menus.bind,M-c s,⌃c → s,font-sans,Formatting / structure,High
+menus.bind,M-c u,⌃c → u,font-underline,Formatting / structure,High
+menus.bind,M-c w,⌃c → w,font-underwave,Formatting / structure,High
+menus.bind,M-c Down,⌃c → ↓,word-lowcase,Editing / navigation,Low / VS Code native or LyX-specific
+menus.bind,M-c Up,⌃c → ↑,word-upcase,Editing / navigation,Low / VS Code native or LyX-specific
+menus.bind,M-c Left,⌃c → ←,word-invertcase,Editing / navigation,Low / VS Code native or LyX-specific
+menus.bind,M-c Right,⌃c → →,word-capitalize,Editing / navigation,Low / VS Code native or LyX-specific
+menus.bind,M-c space,⌃c → Space,font-default,Formatting / structure,High
+menus.bind,M-k 1,⌃k → 1,keymap-primary,Other,Low / VS Code native or LyX-specific
+menus.bind,M-k 2,⌃k → 2,keymap-secondary,Other,Low / VS Code native or LyX-specific
+menus.bind,M-k o,⌃k → o,keymap-off,Other,Low / VS Code native or LyX-specific
+menus.bind,M-k t,⌃k → t,keymap-toggle,Other,Low / VS Code native or LyX-specific
+menus.bind,M-k x,⌃k → x,keymap-off,Other,Low / VS Code native or LyX-specific

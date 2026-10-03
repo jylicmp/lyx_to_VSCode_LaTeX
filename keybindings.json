@@ -1,0 +1,249 @@
+[
+  {
+    "key": "cmd+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\(${1:${TM_SELECTED_TEXT}}\\)$0"
+    }
+  },
+  {
+    "key": "cmd+shift+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\[\n\t${1:${TM_SELECTED_TEXT}}\n\\]$0"
+    }
+  },
+  {
+    "key": "cmd+ctrl+n",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\begin{equation}\n\t${1:${TM_SELECTED_TEXT}}\n\\end{equation}$0"
+    }
+  },
+  {
+    "key": "ctrl+m f",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\frac{${1:${TM_SELECTED_TEXT}}}{${2}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\sqrt{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m x",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "${TM_SELECTED_TEXT}_{${1}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m e",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "${TM_SELECTED_TEXT}^{${1}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m u",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\sum_{${1:i}}^{${2:N}} ${3}$0"
+    }
+  },
+  {
+    "key": "ctrl+m i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\int_{${1:a}}^{${2:b}} ${3}\\,d${4:x}$0"
+    }
+  },
+  {
+    "key": "ctrl+m y",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\oint_{${1:C}} ${2}\\,d${3:\\ell}$0"
+    }
+  },
+  {
+    "key": "ctrl+m p",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\partial$0"
+    }
+  },
+  {
+    "key": "ctrl+m r",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\sqrt[${1:n}]{${2:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m 8",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\infty$0"
+    }
+  },
+  {
+    "key": "ctrl+m h",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\hat{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m v",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\vec{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m b",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\overline{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m .",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\dot{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m /",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\acute{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m -",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\bar{${1:${TM_SELECTED_TEXT}}}$0"
+    }
+  },
+  {
+    "key": "ctrl+m '",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "^{\\prime}$0"
+    }
+  },
+  {
+    "key": "ctrl+m shift+=",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\pm$0"
+    }
+  },
+  {
+    "key": "ctrl+m =",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\neq$0"
+    }
+  },
+  {
+    "key": "ctrl+m shift+9",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\left(${1:${TM_SELECTED_TEXT}}\\right)$0"
+    }
+  },
+  {
+    "key": "ctrl+m [",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\left[${1:${TM_SELECTED_TEXT}}\\right]$0"
+    }
+  },
+  {
+    "key": "ctrl+m 2",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\begin{pmatrix}\n\t${1:a} & ${2:b} \\\\\n\t${3:c} & ${4:d}\n\\end{pmatrix}$0"
+    }
+  },
+  {
+    "key": "ctrl+m 3",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\begin{pmatrix}\n\t${1:a_{11}} & ${2:a_{12}} & ${3:a_{13}} \\\\\n\t${4:a_{21}} & ${5:a_{22}} & ${6:a_{23}} \\\\\n\t${7:a_{31}} & ${8:a_{32}} & ${9:a_{33}}\n\\end{pmatrix}$0"
+    }
+  },
+  {
+    "key": "ctrl+m c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\begin{cases}\n\t${1:f_1(x)}, & ${2:\\text{condition 1}} \\\\\n\t${3:f_2(x)}, & ${4:\\text{condition 2}}\n\\end{cases}$0"
+    }
+  },
+  {
+    "key": "ctrl+m a",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\begin{align}\n\t${1} &= ${2} \\\\\n\t${3} &= ${4}\n\\end{align}$0"
+    }
+  },
+  {
+    "key": "ctrl+m q",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly",
+    "args": {
+      "snippet": "\\begin{equation}\n\t${1}\n\\end{equation}$0"
+    }
+  },
+  {
+    "key": "cmd+alt+b",
+    "command": "latex-workshop.build",
+    "when": "editorLangId == latex"
+  },
+  {
+    "key": "cmd+alt+v",
+    "command": "latex-workshop.view",
+    "when": "editorLangId == latex"
+  },
+  {
+    "key": "cmd+alt+j",
+    "command": "latex-workshop.synctex",
+    "when": "editorTextFocus && editorLangId == latex && !editorReadonly"
+  }
+]

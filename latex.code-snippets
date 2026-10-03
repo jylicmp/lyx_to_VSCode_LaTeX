@@ -1,0 +1,415 @@
+{
+  "LyX Greek alpha (a)": {
+    "prefix": ";ga",
+    "body": [
+      "\\alpha$0"
+    ],
+    "description": "LyX M-m g a: \\alpha"
+  },
+  "LyX Greek beta (b)": {
+    "prefix": ";gb",
+    "body": [
+      "\\beta$0"
+    ],
+    "description": "LyX M-m g b: \\beta"
+  },
+  "LyX Greek chi (c)": {
+    "prefix": ";gc",
+    "body": [
+      "\\chi$0"
+    ],
+    "description": "LyX M-m g c: \\chi"
+  },
+  "LyX Greek delta (d)": {
+    "prefix": ";gd",
+    "body": [
+      "\\delta$0"
+    ],
+    "description": "LyX M-m g d: \\delta"
+  },
+  "LyX Greek epsilon (e)": {
+    "prefix": ";ge",
+    "body": [
+      "\\epsilon$0"
+    ],
+    "description": "LyX M-m g e: \\epsilon"
+  },
+  "LyX Greek phi (f)": {
+    "prefix": ";gf",
+    "body": [
+      "\\phi$0"
+    ],
+    "description": "LyX M-m g f: \\phi"
+  },
+  "LyX Greek gamma (g)": {
+    "prefix": ";gg",
+    "body": [
+      "\\gamma$0"
+    ],
+    "description": "LyX M-m g g: \\gamma"
+  },
+  "LyX Greek eta (h)": {
+    "prefix": ";gh",
+    "body": [
+      "\\eta$0"
+    ],
+    "description": "LyX M-m g h: \\eta"
+  },
+  "LyX Greek iota (i)": {
+    "prefix": ";gi",
+    "body": [
+      "\\iota$0"
+    ],
+    "description": "LyX M-m g i: \\iota"
+  },
+  "LyX Greek varphi (j)": {
+    "prefix": ";gj",
+    "body": [
+      "\\varphi$0"
+    ],
+    "description": "LyX M-m g j: \\varphi"
+  },
+  "LyX Greek kappa (k)": {
+    "prefix": ";gk",
+    "body": [
+      "\\kappa$0"
+    ],
+    "description": "LyX M-m g k: \\kappa"
+  },
+  "LyX Greek lambda (l)": {
+    "prefix": ";gl",
+    "body": [
+      "\\lambda$0"
+    ],
+    "description": "LyX M-m g l: \\lambda"
+  },
+  "LyX Greek mu (m)": {
+    "prefix": ";gm",
+    "body": [
+      "\\mu$0"
+    ],
+    "description": "LyX M-m g m: \\mu"
+  },
+  "LyX Greek nu (n)": {
+    "prefix": ";gn",
+    "body": [
+      "\\nu$0"
+    ],
+    "description": "LyX M-m g n: \\nu"
+  },
+  "LyX Greek omega (o)": {
+    "prefix": ";go",
+    "body": [
+      "\\omega$0"
+    ],
+    "description": "LyX M-m g o: \\omega"
+  },
+  "LyX Greek pi (p)": {
+    "prefix": ";gp",
+    "body": [
+      "\\pi$0"
+    ],
+    "description": "LyX M-m g p: \\pi"
+  },
+  "LyX Greek vartheta (q)": {
+    "prefix": ";gq",
+    "body": [
+      "\\vartheta$0"
+    ],
+    "description": "LyX M-m g q: \\vartheta"
+  },
+  "LyX Greek rho (r)": {
+    "prefix": ";gr",
+    "body": [
+      "\\rho$0"
+    ],
+    "description": "LyX M-m g r: \\rho"
+  },
+  "LyX Greek sigma (s)": {
+    "prefix": ";gs",
+    "body": [
+      "\\sigma$0"
+    ],
+    "description": "LyX M-m g s: \\sigma"
+  },
+  "LyX Greek tau (t)": {
+    "prefix": ";gt",
+    "body": [
+      "\\tau$0"
+    ],
+    "description": "LyX M-m g t: \\tau"
+  },
+  "LyX Greek upsilon (u)": {
+    "prefix": ";gu",
+    "body": [
+      "\\upsilon$0"
+    ],
+    "description": "LyX M-m g u: \\upsilon"
+  },
+  "LyX Greek theta (v)": {
+    "prefix": ";gv",
+    "body": [
+      "\\theta$0"
+    ],
+    "description": "LyX M-m g v: \\theta"
+  },
+  "LyX Greek omega (w)": {
+    "prefix": ";gw",
+    "body": [
+      "\\omega$0"
+    ],
+    "description": "LyX M-m g w: \\omega"
+  },
+  "LyX Greek xi (x)": {
+    "prefix": ";gx",
+    "body": [
+      "\\xi$0"
+    ],
+    "description": "LyX M-m g x: \\xi"
+  },
+  "LyX Greek psi (y)": {
+    "prefix": ";gy",
+    "body": [
+      "\\psi$0"
+    ],
+    "description": "LyX M-m g y: \\psi"
+  },
+  "LyX Greek zeta (z)": {
+    "prefix": ";gz",
+    "body": [
+      "\\zeta$0"
+    ],
+    "description": "LyX M-m g z: \\zeta"
+  },
+  "LyX Greek Delta (D)": {
+    "prefix": ";gD",
+    "body": [
+      "\\Delta$0"
+    ],
+    "description": "LyX M-m g D: \\Delta"
+  },
+  "LyX Greek varepsilon (E)": {
+    "prefix": ";gE",
+    "body": [
+      "\\varepsilon$0"
+    ],
+    "description": "LyX M-m g E: \\varepsilon"
+  },
+  "LyX Greek Phi (F)": {
+    "prefix": ";gF",
+    "body": [
+      "\\Phi$0"
+    ],
+    "description": "LyX M-m g F: \\Phi"
+  },
+  "LyX Greek Gamma (G)": {
+    "prefix": ";gG",
+    "body": [
+      "\\Gamma$0"
+    ],
+    "description": "LyX M-m g G: \\Gamma"
+  },
+  "LyX Greek Lambda (L)": {
+    "prefix": ";gL",
+    "body": [
+      "\\Lambda$0"
+    ],
+    "description": "LyX M-m g L: \\Lambda"
+  },
+  "LyX Greek Omega (O)": {
+    "prefix": ";gO",
+    "body": [
+      "\\Omega$0"
+    ],
+    "description": "LyX M-m g O: \\Omega"
+  },
+  "LyX Greek Pi (P)": {
+    "prefix": ";gP",
+    "body": [
+      "\\Pi$0"
+    ],
+    "description": "LyX M-m g P: \\Pi"
+  },
+  "LyX Greek vartheta (Q)": {
+    "prefix": ";gQ",
+    "body": [
+      "\\vartheta$0"
+    ],
+    "description": "LyX M-m g Q: \\vartheta"
+  },
+  "LyX Greek varrho (R)": {
+    "prefix": ";gR",
+    "body": [
+      "\\varrho$0"
+    ],
+    "description": "LyX M-m g R: \\varrho"
+  },
+  "LyX Greek Sigma (S)": {
+    "prefix": ";gS",
+    "body": [
+      "\\Sigma$0"
+    ],
+    "description": "LyX M-m g S: \\Sigma"
+  },
+  "LyX Greek varsigma (T)": {
+    "prefix": ";gT",
+    "body": [
+      "\\varsigma$0"
+    ],
+    "description": "LyX M-m g T: \\varsigma"
+  },
+  "LyX Greek Upsilon (U)": {
+    "prefix": ";gU",
+    "body": [
+      "\\Upsilon$0"
+    ],
+    "description": "LyX M-m g U: \\Upsilon"
+  },
+  "LyX Greek Theta (V)": {
+    "prefix": ";gV",
+    "body": [
+      "\\Theta$0"
+    ],
+    "description": "LyX M-m g V: \\Theta"
+  },
+  "LyX Greek Omega (W)": {
+    "prefix": ";gW",
+    "body": [
+      "\\Omega$0"
+    ],
+    "description": "LyX M-m g W: \\Omega"
+  },
+  "LyX Greek Xi (X)": {
+    "prefix": ";gX",
+    "body": [
+      "\\Xi$0"
+    ],
+    "description": "LyX M-m g X: \\Xi"
+  },
+  "LyX Greek Psi (Y)": {
+    "prefix": ";gY",
+    "body": [
+      "\\Psi$0"
+    ],
+    "description": "LyX M-m g Y: \\Psi"
+  },
+  "LyX fraction": {
+    "prefix": ";frac",
+    "body": [
+      "\\frac{${1}}{${2}}$0"
+    ],
+    "description": "Fraction with Tab stops"
+  },
+  "LyX square root": {
+    "prefix": ";sqrt",
+    "body": [
+      "\\sqrt{${1}}$0"
+    ],
+    "description": "Square root"
+  },
+  "2x2 pmatrix": {
+    "prefix": ";pm2",
+    "body": [
+      "\\begin{pmatrix}",
+      "\t${1:a} & ${2:b} \\\\",
+      "\t${3:c} & ${4:d}",
+      "\\end{pmatrix}$0"
+    ],
+    "description": "2x2 parenthesized matrix"
+  },
+  "3x3 pmatrix": {
+    "prefix": ";pm3",
+    "body": [
+      "\\begin{pmatrix}",
+      "\t${1:a_{11}} & ${2:a_{12}} & ${3:a_{13}} \\\\",
+      "\t${4:a_{21}} & ${5:a_{22}} & ${6:a_{23}} \\\\",
+      "\t${7:a_{31}} & ${8:a_{32}} & ${9:a_{33}}",
+      "\\end{pmatrix}$0"
+    ],
+    "description": "3x3 parenthesized matrix"
+  },
+  "Cases": {
+    "prefix": ";cases",
+    "body": [
+      "\\begin{cases}",
+      "\t${1:f_1(x)}, & ${2:\\text{condition 1}} \\\\",
+      "\t${3:f_2(x)}, & ${4:\\text{condition 2}}",
+      "\\end{cases}$0"
+    ],
+    "description": "cases environment"
+  },
+  "Align": {
+    "prefix": ";align",
+    "body": [
+      "\\begin{align}",
+      "\t${1} &= ${2} \\\\",
+      "\t${3} &= ${4}",
+      "\\end{align}$0"
+    ],
+    "description": "align environment"
+  },
+  "Equation": {
+    "prefix": ";eq",
+    "body": [
+      "\\begin{equation}",
+      "\t${1}",
+      "\\end{equation}$0"
+    ],
+    "description": "numbered equation"
+  },
+  "Table 2 columns": {
+    "prefix": ";tab2",
+    "body": [
+      "\\begin{tabular}{${1:ll}}",
+      "\t${2:A} & ${3:B} \\\\",
+      "\t${4:C} & ${5:D} \\\\",
+      "\\end{tabular}$0"
+    ],
+    "description": "2-column tabular skeleton"
+  },
+  "Table 3 columns": {
+    "prefix": ";tab3",
+    "body": [
+      "\\begin{tabular}{${1:lll}}",
+      "\t${2:A} & ${3:B} & ${4:C} \\\\",
+      "\t${5:D} & ${6:E} & ${7:F} \\\\",
+      "\\end{tabular}$0"
+    ],
+    "description": "3-column tabular skeleton"
+  },
+  "Bra-ket": {
+    "prefix": ";bk",
+    "body": [
+      "\\langle ${1:\\psi} \\vert ${2:\\phi} \\rangle$0"
+    ],
+    "description": "Bra-ket inner product"
+  },
+  "Ket": {
+    "prefix": ";ket",
+    "body": [
+      "\\vert ${1:\\psi} \\rangle$0"
+    ],
+    "description": "Ket"
+  },
+  "Bra": {
+    "prefix": ";bra",
+    "body": [
+      "\\langle ${1:\\psi} \\vert$0"
+    ],
+    "description": "Bra"
+  },
+  "LyX Greek iota (I)": {
+    "prefix": ";gI",
+    "body": [
+      "\\iota$0"
+    ],
+    "description": "LyX M-m g I: \\iota"
+  },
+  "LyX Greek epsilon (J)": {
+    "prefix": ";gJ",
+    "body": [
+      "\\epsilon$0"
+    ],
+    "description": "LyX M-m g J: \\epsilon"
+  }
+}

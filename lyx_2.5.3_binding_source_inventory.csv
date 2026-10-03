@@ -1,0 +1,8 @@
+﻿source_file,binding_count,role,included
+site.bind,24,Global/base editing bindings,Included in full command table
+mac.bind,176,macOS profile bindings,Included in full command table
+math.bind,124,Math-mode commands,Included in full command table
+menus.bind,109,Invisible menu/format/layout commands,Included in full command table
+latinkeys.bind,355,Direct Latin/X11 key-symbol self-insert mappings,Not duplicated into command table
+cyrkeys.bind,139,Direct Cyrillic key-symbol self-insert mappings,Not duplicated into command table
+greekkeys.bind,75,Direct Greek keyboard key-symbol self-insert mappings,Not duplicated into command table
